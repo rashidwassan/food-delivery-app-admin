@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:foda_admin/components/app_scaffold.dart';
-import 'package:foda_admin/components/foda_button.dart';
+import 'package:foda_admin/components/sayfood_button.dart';
 import 'package:foda_admin/components/rounded_card.dart';
 import 'package:foda_admin/components/textfield.dart';
 import 'package:foda_admin/constant/image_path.dart';
@@ -19,7 +19,7 @@ class AuthenticationView extends StatelessWidget {
         padding: const EdgeInsets.all(AppTheme.cardPadding),
         child: Column(
           children: [
-            Image.asset(ImagePath.logo, width: 120),
+             //Image.asset('assets/images/logo.png'),
             const SizedBox(height: AppTheme.cardPadding * 2),
             SizedBox(
               width: 500,

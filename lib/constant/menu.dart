@@ -4,13 +4,13 @@ import 'package:foda_admin/constant/route_name.dart';
 
 List<Menu> menus = const [
   Menu(
-    title: 'Overview',
-    icon: Icons.analytics_outlined,
+    title: 'Coupons',
+    icon: Icons.airplane_ticket,
     route: overview,
     subRoutes: [],
   ),
   Menu(
-    title: 'Customers',
+    title: 'Insights',
     icon: Icons.group_outlined,
     route: customerPath,
     subRoutes: [],

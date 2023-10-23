@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-void fodaPrint(dynamic value) {
+void sayfoodPrint(dynamic value) {
   debugPrint(value.toString());
 }
 

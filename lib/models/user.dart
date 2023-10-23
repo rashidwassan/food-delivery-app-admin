@@ -19,6 +19,7 @@ class User extends Equatable {
   final int updatedAt;
   final bool isActive;
   final int dob;
+  final int points;
   final List<String> permisions;
   final List<String> favorites;
 
@@ -34,6 +35,7 @@ class User extends Equatable {
     required this.updatedAt,
     required this.isActive,
     required this.dob,
+    required this.points,
     required this.permisions,
     required this.favorites,
   });
@@ -50,6 +52,7 @@ class User extends Equatable {
       updatedAt,
       isActive,
       dob,
+      points,
       permisions,
       favorites,
     ];
@@ -65,6 +68,7 @@ class User extends Equatable {
     int? updatedAt,
     bool? isActive,
     int? dob,
+    int? points,
     List<String>? permisions,
     List<String>? favorites,
   }) {
@@ -78,6 +82,7 @@ class User extends Equatable {
       updatedAt: updatedAt ?? this.updatedAt,
       isActive: isActive ?? this.isActive,
       dob: dob ?? this.dob,
+      points: points ?? this.points,
       permisions: permisions ?? this.permisions,
       favorites: favorites ?? this.favorites,
     );
@@ -94,6 +99,7 @@ class User extends Equatable {
       'updatedAt': updatedAt,
       'isActive': isActive,
       'dob': dob,
+      'points': points,
       'permisions': permisions,
       'favorites': favorites,
     };
@@ -110,6 +116,7 @@ class User extends Equatable {
       updatedAt: map['updatedAt'] ?? 0,
       isActive: map['isActive'] ?? false,
       dob: map['dob'] ?? 0,
+      points: map['points'] ?? 0,
       permisions: List<String>.from(map['permisions'] ?? []),
       favorites: List<String>.from(map['favorites'] ?? []),
     );
@@ -121,6 +128,6 @@ class User extends Equatable {
 
   @override
   String toString() {
-    return 'User(uid: $uid, email: $email, name: $name, phone: $phone, profileImageUrl: $profileImageUrl, createdAt: $createdAt, updatedAt: $updatedAt, isActive: $isActive, dob: $dob, permisions: $permisions, favorites: $favorites)';
+    return 'User(uid: $uid, email: $email, name: $name, phone: $phone, profileImageUrl: $profileImageUrl, createdAt: $createdAt, updatedAt: $updatedAt, isActive: $isActive, points: $points, dob: $dob, permisions: $permisions, favorites: $favorites)';
   }
 }

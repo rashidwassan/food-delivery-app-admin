@@ -40,9 +40,9 @@ class UserRepository {
       if (firebaseUser != null) {
         final String uid = firebaseUser.uid;
         getCurrentUser(uid);
-        fodaPrint("CURRENT USER -> $uid");
+        sayfoodPrint("CURRENT USER -> $uid");
       } else {
-        fodaPrint("NO CURRENT USER");
+        sayfoodPrint("NO CURRENT USER");
       }
     });
   }
@@ -56,7 +56,7 @@ class UserRepository {
 
         if (!user.isAdmin) {
           await logout();
-          fodaPrint("user is not an admin");
+          sayfoodPrint("user is not an admin");
           return const Left(ErrorHandler(message: "User is not an admin"));
         }
 
@@ -107,7 +107,7 @@ class UserRepository {
         }
       });
     } catch (e) {
-      fodaPrint(e);
+      sayfoodPrint(e);
     }
 
     yield currentUserNotifier.value;

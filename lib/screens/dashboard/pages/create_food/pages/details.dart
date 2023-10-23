@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:foda_admin/components/foda_button.dart';
+import 'package:foda_admin/components/sayfood_button.dart';
 import 'package:foda_admin/components/textfield.dart';
 import 'package:foda_admin/themes/app_theme.dart';
 import 'package:foda_admin/utils/common.dart';
@@ -15,7 +15,7 @@ class FoodDetails extends StatelessWidget {
   Widget build(BuildContext context) {
     final state = context.watch<CreateFoodState>();
 
-    fodaPrint(state.detailPageIsValid);
+    sayfoodPrint(state.detailPageIsValid);
 
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: AppTheme.cardPadding),

@@ -1,11 +1,11 @@
 {
-    "name": "foda_admin",
-    "short_name": "foda_admin",
+    "name": "sayFood Admin",
+    "short_name": "sayFood Admnin",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Admin panel for sayfood",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

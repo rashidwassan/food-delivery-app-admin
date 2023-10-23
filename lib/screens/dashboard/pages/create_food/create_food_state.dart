@@ -135,7 +135,7 @@ class CreateFoodState extends BaseState {
       if (addFood.isRight) {
         navigatePushReplaceName(foodsPath);
       } else {
-        fodaPrint(addFood.left);
+        sayfoodPrint(addFood.left);
       }
     }
   }

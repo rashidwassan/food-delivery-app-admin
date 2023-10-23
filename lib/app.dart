@@ -6,8 +6,8 @@ import 'package:foda_admin/screens/dashboard/dashboard_state.dart';
 import 'package:foda_admin/themes/app_theme.dart';
 import 'package:provider/provider.dart';
 
-class FodaAdmin extends StatelessWidget {
-  const FodaAdmin({Key? key}) : super(key: key);
+class SayFoodAdmin extends StatelessWidget {
+  const SayFoodAdmin({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +18,7 @@ class FodaAdmin extends StatelessWidget {
       ],
       child: MaterialApp.router(
         theme: AppTheme.theme,
-        title: 'Foda Admin',
+        title: 'SayFood Admin',
         shortcuts: {
           LogicalKeySet(LogicalKeyboardKey.space): const ActivateIntent(),
         },

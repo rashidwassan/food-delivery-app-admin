@@ -1,11 +1,11 @@
 List<String> categories = const [
   "Pizza",
-  "Hot Dog",
+  "Burgers",
   "Steak",
-  "Hamburger",
-  "Fried Chicken",
-  "French Fries",
-  "Desserts",
+  "Fries",
+  "Desi",
+  "Fast Food",
+  "BBQ",
   "Mixed Foods",
-  "Nigerian Pot"
+  "Chinese"
 ];

@@ -14,23 +14,23 @@ dependencies:
 
   cupertino_icons: ^1.0.2
   #database
-  firebase_core: ^1.16.0
-  firebase_auth: ^3.3.17
+  firebase_core: ^2.15.1
+  firebase_auth: ^4.9.0
 
   #new
-  firebase_storage: ^10.2.15
-  cloud_firestore: ^3.1.10
+  firebase_storage: ^11.2.6
+  cloud_firestore: ^4.9.1
 
   #state management control
   provider: ^6.0.2
-  either_dart: ^0.1.4
+  either_dart: ^1.0.0
   get_it: ^7.2.0
 
   #utils
-  intl: ^0.17.0
+  intl: ^0.18.1
   equatable: ^2.0.3
   random_string: ^2.3.1
-  file_picker: ^4.5.1
+  file_picker: ^5.5.0
 
 dev_dependencies:
   flutter_test:
